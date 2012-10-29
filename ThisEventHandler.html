@@ -1,0 +1,21 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="demostyle.css">
+    <script type="text/javascript">
+        function identifyOwner() {
+            document.getElementById('ownerBox').value = this;
+        }
+    </script>
+
+</head>
+<body>
+    <button id="button1" onclick="identifyOwner()">Inline Model</button>
+    <button id="button2">Traditional Model</button>
+    <script type="text/javascript">
+        var button = document.getElementById('button2')
+        button.onclick = identifyOwner
+    </script>
+    <br/>
+    <input readonly="true" id="ownerBox">
+</body>
+</html>

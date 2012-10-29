@@ -1,0 +1,13 @@
+button {
+width:400;
+height: 100;
+font-size:32;
+margin: 25;
+}
+
+input {
+    width: 850;
+    height: 100;
+    font-size: 48;
+    margin: 25;
+}
